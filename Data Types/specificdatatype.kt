@@ -60,6 +60,8 @@ fun main() {
     println(gender)
     println(address)
 
+    print("My name is $name and I live at $address.")
+
     // reassign
     // roll = 20
     // name = "Kotlin Updated"
