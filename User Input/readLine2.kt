@@ -10,4 +10,11 @@ fun main() {
     val roll_No = readLine()!!.toInt();
     println("Roll No. : $roll_No")
     println("Roll No. Data type is this : ${roll_No::class.simpleName}")
+
+    // For Float
+
+    println("Enter Your Fee = ");
+    val fee : Float = readLine()!!.toFloat()
+    println("Fee is : $fee")
+    println("Fee's Data Type is ${fee::class.simpleName}")
 }
