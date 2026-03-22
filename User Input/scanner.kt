@@ -19,5 +19,5 @@ fun main() {
     println("Enter Your Percentage = ")
     val percenage = scanner.nextFloat();
     println("Percentage is : $percenage")
-    println("Data Type of Percentage is = ${percenage::class.simpleName}")
+    println("Data Type of Percentage is = ${percenage::class.simpleName}") 
 }
