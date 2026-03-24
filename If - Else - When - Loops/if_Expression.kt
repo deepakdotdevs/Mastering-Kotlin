@@ -13,14 +13,14 @@
 // ii)
 
 fun main() {
-    val a = 20;
-    val b = 10
+    val a = 70;
+    val b = 30
     var max = 0; // because it's value is will be assign in next steps
     if(a>b) max = a
-    println("Then, Updated Max Value is = $max")
+    println("Then, Updated Max Value is = ${max+b-a}")
 
     if(b>a) { // not execute, coz b is less than a (b<a)
-        println("B is Max value = $b")
+        println("B is Max value = ${b-a}")
     }
     
 }
