@@ -37,13 +37,25 @@
 //     }
 // }
 
-// iv) 
+// // iv) 
+
+// fun main() {
+//     val x = 3
+//     when(x) {
+//         in 1..4 -> println("One, Two, Three or Four")
+//         5 -> println("Five")
+//         else -> println("not valid")
+//     }
+// }
+
+// v)
 
 fun main() {
-    val x = 3
-    when(x) {
-        in 1..4 -> println("One, Two, Three or Four")
-        5 -> println("Five")
-        else -> println("not valid")
+    val day = "saturday"
+    when(day) {
+        "sunday" -> println("holiday")
+        "monday" -> println("workday")
+        "saturday" -> println("halfday")
+        else -> println("invalid input")
     }
 }
