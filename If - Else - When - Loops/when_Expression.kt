@@ -24,15 +24,26 @@
 
 // iii)
 
+// fun main() {
+//     val x = 1
+//     when(x) {
+//         1,2 -> {
+//             println("One")
+//             println("Two")
+//         }
+//         3 -> println("Three")
+//         4 -> println("Four")
+//         else -> println("not valid")
+//     }
+// }
+
+// iv) 
+
 fun main() {
-    val x = 1
+    val x = 3
     when(x) {
-        1,2 -> {
-            println("One")
-            println("Two")
-        }
-        3 -> println("Three")
-        4 -> println("Four")
+        in 1..4 -> println("One, Two, Three or Four")
+        5 -> println("Five")
         else -> println("not valid")
     }
 }
