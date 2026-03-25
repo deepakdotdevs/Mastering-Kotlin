@@ -1,7 +1,16 @@
-// for loop, Syntax -> for( item in collection) print(item)
+// // for loop, Syntax -> for( item in collection) print(item)
 
-fun main() {
-    for(item in 1..5) {
-        println(item);
-    }
-}
+// fun main() {
+//     for(item in 1..5) {
+//         println(item);
+//     }
+// }
+
+// // ii)
+
+// fun main() {
+//     for(item in 1..5) {
+//         print("Step : ")
+//         println(item)
+//     }
+// }
