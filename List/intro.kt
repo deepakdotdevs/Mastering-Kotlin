@@ -33,4 +33,13 @@ fun main() {
     for(i in 0..s-1) {
         println("$i = ${data[i]}")
     }
+
+    // print using labma expression
+    println("---------------Using Lambda Expression---------------------------------")
+    data.forEach{dt -> println(dt)}
+
+    // specific data type's list
+
+    val data2 = listOf<String>("Deepak", "Aman", "Naman")
+    println(data2)
 }
